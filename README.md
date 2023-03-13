@@ -26,6 +26,30 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Hola, para la instalacion no hay nada fuera de lo comun
+-se clona el repo 
+-npm install
+-la base de datos la llame 'contacts'
+-en el app.module  esta synchronize: true por lo que las tablas se crearan automatico 
+-para crear un usuario se usa el endpoint http://localhost:4000/usuario
+pasandole por post en el body el siguiente json 
+{
+    "username": "",
+    "password": "",
+    "nombre_usuario": "",
+    "apellido_usuario": "",
+    "telefonoCelular_usuario": "",
+    "telefonoFijo_usuario": "",
+    "correo_usuario": "",
+    "direccion_usuario": "",
+    "ciudad_usuario": "",
+    "pais_usuario": ""
+}
+-la conexion a la base de datos la hice en base a mysql teniendo en cuenta que los datos
+de conexion son los que vienen por defecto 
+
+
+
 ## Installation
 
 ```bash
